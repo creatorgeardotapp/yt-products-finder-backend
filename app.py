@@ -25,8 +25,8 @@ def proxy_image():
     r = requests.get(img_url, headers=headers)
     if r.status_code != 200:
         return "Image not found", 404
+    # Serve as our own image (not streaming, avoids hotlink issues)
     return Response(r.content, mimetype="image/jpeg")
-
 
 @app.route("/status")
 def status():
