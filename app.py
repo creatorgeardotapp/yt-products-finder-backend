@@ -22,8 +22,11 @@ def proxy_image():
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
     }
-    r = requests.get(img_url, headers=headers, stream=True)
-    return Response(r.content, content_type=r.headers.get('Content-Type', 'image/jpeg'))
+    r = requests.get(img_url, headers=headers)
+    if r.status_code != 200:
+        return "Image not found", 404
+    return Response(r.content, mimetype="image/jpeg")
+
 
 @app.route("/status")
 def status():
