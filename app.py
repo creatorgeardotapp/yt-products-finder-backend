@@ -1,8 +1,10 @@
 
 from flask import Flask, jsonify
 import json, os
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 with open("products.json") as f:
     PRELOADED_PRODUCTS = json.load(f)
 
