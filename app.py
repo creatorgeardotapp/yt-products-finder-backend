@@ -20,7 +20,7 @@ def proxy_image():
     if not img_url:
         return "Missing URL", 400
     headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
     }
     r = requests.get(img_url, headers=headers, stream=True)
     return Response(r.content, content_type=r.headers.get('Content-Type', 'image/jpeg'))
