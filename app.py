@@ -1,3 +1,5 @@
+import requests
+from flask import Response, request
 
 from flask import Flask, jsonify
 import json, os
@@ -14,3 +16,11 @@ def products():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
+@app.route("/image")
+def proxy_image():
+    img_url = request.args.get("url")
+    if not img_url:
+        return "Missing URL", 400
+    r = requests.get(img_url, stream=True)
+    return Response(r.content, content_type=r.headers['Content-Type'])
