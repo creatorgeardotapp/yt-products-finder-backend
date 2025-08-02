@@ -20,12 +20,12 @@ def proxy_image():
     if not img_url:
         return "Missing URL", 400
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36",
+        "Referer": "https://www.amazon.com/"
     }
     r = requests.get(img_url, headers=headers)
     if r.status_code != 200:
-        return "Image not found", 404
-    # Serve as our own image (not streaming, avoids hotlink issues)
+        return f"Image fetch failed with status {r.status_code}", 404
     return Response(r.content, mimetype="image/jpeg")
 
 @app.route("/status")
