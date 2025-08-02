@@ -2,48 +2,48 @@
   "Mics & Audio": [
     {
       "name": "FIFINE USB Podcast Microphone",
-      "image": "/image?url=https://m.media-amazon.com/images/I/61vT9p1PldL._AC_SL1500_.jpg",
+      "image": "https://yt-products-finder-f5ac4ab26ba8.herokuapp.com/image?url=https://m.media-amazon.com/images/I/61vT9p1PldL._AC_SL1500_.jpg",
       "link": "https://www.amazon.com/dp/B07Y1C6GDS?tag=youtubeazon-22"
     },
     {
       "name": "Blue Snowball iCE USB Mic",
-      "image": "/image?url=https://m.media-amazon.com/images/I/71eq8g0nJpL._AC_SL1500_.jpg",
+      "image": "https://yt-products-finder-f5ac4ab26ba8.herokuapp.com/image?url=https://m.media-amazon.com/images/I/71eq8g0nJpL._AC_SL1500_.jpg",
       "link": "https://www.amazon.com/dp/B014PYGTUQ?tag=youtubeazon-22"
     }
   ],
   "Lighting": [
     {
       "name": "Neewer 10-inch LED Ring Light",
-      "image": "/image?url=https://m.media-amazon.com/images/I/71MDm7uK04L._AC_SL1500_.jpg",
+      "image": "https://yt-products-finder-f5ac4ab26ba8.herokuapp.com/image?url=https://m.media-amazon.com/images/I/71MDm7uK04L._AC_SL1500_.jpg",
       "link": "https://www.amazon.com/dp/B07P8J8MJ4?tag=youtubeazon-22"
     },
     {
       "name": "UBeesize 12-inch Selfie Ring Light",
-      "image": "/image?url=https://m.media-amazon.com/images/I/71yFJz7oQdL._AC_SL1500_.jpg",
+      "image": "https://yt-products-finder-f5ac4ab26ba8.herokuapp.com/image?url=https://m.media-amazon.com/images/I/71yFJz7oQdL._AC_SL1500_.jpg",
       "link": "https://www.amazon.com/dp/B08D6ZVTL3?tag=youtubeazon-22"
     }
   ],
   "Accessories": [
     {
       "name": "Joby GorillaPod 1K Kit Tripod",
-      "image": "/image?url=https://m.media-amazon.com/images/I/81ZrEbylXDL._AC_SL1500_.jpg",
+      "image": "https://yt-products-finder-f5ac4ab26ba8.herokuapp.com/image?url=https://m.media-amazon.com/images/I/81ZrEbylXDL._AC_SL1500_.jpg",
       "link": "https://www.amazon.com/dp/B074WC9YKL?tag=youtubeazon-22"
     },
     {
       "name": "SanDisk 128GB Ultra SDXC Memory Card",
-      "image": "/image?url=https://m.media-amazon.com/images/I/81X2qCw2m6L._AC_SL1500_.jpg",
+      "image": "https://yt-products-finder-f5ac4ab26ba8.herokuapp.com/image?url=https://m.media-amazon.com/images/I/81X2qCw2m6L._AC_SL1500_.jpg",
       "link": "https://www.amazon.com/dp/B08GY8NH9R?tag=youtubeazon-22"
     }
   ],
   "Tools": [
     {
       "name": "Elgato Stream Deck Mini",
-      "image": "/image?url=https://m.media-amazon.com/images/I/71w7OSHY5kL._AC_SL1500_.jpg",
+      "image": "https://yt-products-finder-f5ac4ab26ba8.herokuapp.com/image?url=https://m.media-amazon.com/images/I/71w7OSHY5kL._AC_SL1500_.jpg",
       "link": "https://www.amazon.com/dp/B07DYRS1WH?tag=youtubeazon-22"
     },
     {
       "name": "Aokeo Professional Microphone Pop Filter",
-      "image": "/image?url=https://m.media-amazon.com/images/I/71zSmHgwlDL._AC_SL1500_.jpg",
+      "image": "https://yt-products-finder-f5ac4ab26ba8.herokuapp.com/image?url=https://m.media-amazon.com/images/I/71zSmHgwlDL._AC_SL1500_.jpg",
       "link": "https://www.amazon.com/dp/B06VTJ4PDR?tag=youtubeazon-22"
     }
   ]
